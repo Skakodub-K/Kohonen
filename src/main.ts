@@ -57,13 +57,11 @@ async function processData(): Promise<boolean> {
 }
 
 // Пример1 с самообучающейся сетью Кохонера
-async function Example1() {
+async function Example1(countOfNeurons:number) {
   // Размер входного вектора
   const inputDimension = 2;
   // Скорость обучения
   const learningRate = 0.4;
-  // Кол-во нейронов — кол-во кластеров
-  const countOfNeurons = 11;
   // Количество эпох
   let epochs: number = 3000;
   // Минимальный порог, после которого прекращается обучение
@@ -100,11 +98,9 @@ async function Example1() {
   }
 }
 // Пример2
-async function Example2() {
+async function Example2(radius:number) {
   // Размер входного вектора
   const inputDimension = 2;
-  // Максимальный радиус
-  const radius = 0.019;
   // Количество эпох
   let epochs: number = 3000;
   // Минимальный порог, после которого прекращается обучение
@@ -155,11 +151,15 @@ async function main() {
   }
 
   if (args.includes("--example1")) {
-    await Example1();
+    const example1Index = args.indexOf('--example1');
+    const clusterCount:number = parseInt(args[example1Index + 1]) || 11; // По умолчанию 11 кластеров
+    await Example1(clusterCount);
   }
 
   if (args.includes("--example2")) {
-    await Example2();
+    const example2Index = args.indexOf('--example2');
+    const radius:number = parseInt(args[example2Index + 1]) || 0.019; // По умолчанию радиус 
+    await Example2(radius);
   }
 }
 
