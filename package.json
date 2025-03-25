@@ -2,11 +2,17 @@
   "name": "kohoner-main",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/main.js", 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ex1": "echo \"Cамообучающаяйся сеть Кохонена\" && node ./dist/main.js --example1",
+    "ex2": "echo \"Cамоорганизующаяйся сеть Кохонена\" && node ./dist/main.js --example2",
+    "test": "echo \"Hello METANIT.COM\" && exit 1",
+    "build": "tsc"                            
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.13"
+  }
 }

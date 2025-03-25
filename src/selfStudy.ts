@@ -21,7 +21,7 @@ export class SelfStudy {
     // Инициализируем веса случайно
     this.weights = Array.from({ length: countOfNeurons }, (_, r) => (
       Array.from({ length: inputDimension }, (_, c) => (Math.random()))
-    ));
+    ));https://github.com/Skakodub-K/Kohonen
     // Инициализируем потенциалы
     this.potents = Array.from({ length: countOfNeurons }, (_, r) => 1 / countOfNeurons);
   }

@@ -21,7 +21,7 @@ async function processData(): Promise<boolean> {
   let dataObj: any;
   try {
     // Читаем файл-дата
-    const filePath = "./data.json";
+    const filePath = "data.json";
     dataObj = await readJsonFile(filePath);
     console.log("Объект из JSON файла прочитан");
   } catch (error) {
@@ -147,14 +147,20 @@ async function Example2() {
     console.log(countries.join(', ')); // Объединяем страны в строку через запятую
   }
 }
-
 async function main() {
+  const args = process.argv.slice(2);
   if (!await processData()) {
     console.log("FATAL ERROR");
     return;
   }
-  await Example1();
-  await Example2();
+
+  if (args.includes("--example1")) {
+    await Example1();
+  }
+
+  if (args.includes("--example2")) {
+    await Example2();
+  }
 }
 
-main()
+main();
