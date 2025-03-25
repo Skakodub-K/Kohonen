@@ -1,0 +1,782 @@
+{
+  "India": {
+    "square": "3300000",
+    "count": "1400000000",
+    "life": "72.2",
+    "education": "6.6"
+  },
+  "China": {
+    "square": "9600000",
+    "count": "1402000000",
+    "life": "77.3",
+    "education": "7.7"
+  },
+  "USA": {
+    "square": "9833517",
+    "count": "343500000",
+    "life": "78.9",
+    "education": "7.0"
+  },
+  "Indonesia": {
+    "square": "1904570",
+    "count": "281200000",
+    "life": "73.5",
+    "education": "6.0"
+  },
+  "Pakistan": {
+    "square": "881912",
+    "count": "247500000",
+    "life": "67.3",
+    "education": "5.5"
+  },
+  "Nigeria": {
+    "square": "923768",
+    "count": "227900000",
+    "life": "54.5",
+    "education": "5.0"
+  },
+  "Brazil": {
+    "square": "8515767",
+    "count": "211100000",
+    "life": "75.9",
+    "education": "7.5"
+  },
+  "Bangladesh": {
+    "square": "147570",
+    "count": "171500000",
+    "life": "72.8",
+    "education": "6.2"
+  },
+  "Russia": {
+    "square": "17098242",
+    "count": "145400000",
+    "life": "72.6",
+    "education": "7.8"
+  },
+  "Mexico": {
+    "square": "1964375",
+    "count": "129700000",
+    "life": "75.0",
+    "education": "6.2"
+  },
+  "Ethiopia": {
+    "square": "1104300",
+    "count": "128700000",
+    "life": "67.3",
+    "education": "6.1"
+  },
+  "Japan": {
+    "square": "377975",
+    "count": "124400000",
+    "life": "84.6",
+    "education": "8.0"
+  },
+  "Philippines": {
+    "square": "300000",
+    "count": "114900000",
+    "life": "72.5",
+    "education": "6.7"
+  },
+  "Egypt": {
+    "square": "1002450",
+    "count": "114500000",
+    "life": "72.2",
+    "education": "6.4"
+  },
+  "Democratic Republic of the Congo": {
+    "square": "2344858",
+    "count": "105800000",
+    "life": "60.5",
+    "education": "5.1"
+  },
+  "Vietnam": {
+    "square": "331212",
+    "count": "100400000",
+    "life": "75.1",
+    "education": "6.4"
+  },
+  "Iran": {
+    "square": "1648195",
+    "count": "90600000",
+    "life": "76.9",
+    "education": "7.4"
+  },
+  "Turkey": {
+    "square": "783356",
+    "count": "87300000",
+    "life": "78.6",
+    "education": "7.3"
+  },
+  "Germany": {
+    "square": "357022",
+    "count": "84500000",
+    "life": "81.3",
+    "education": "8.5"
+  },
+  "Thailand": {
+    "square": "513120",
+    "count": "71700000",
+    "life": "77.6",
+    "education": "6.7"
+  },
+  "UK": {
+    "square": "243610",
+    "count": "68700000",
+    "life": "81.2",
+    "education": "8.0"
+  },
+  "Tanzania": {
+    "square": "945087",
+    "count": "66600000",
+    "life": "65.4",
+    "education": "5.7"
+  },
+  "France": {
+    "square": "551695",
+    "count": "66400000",
+    "life": "82.5",
+    "education": "8.1"
+  },
+  "South Africa": {
+    "square": "1219090",
+    "count": "63200000",
+    "life": "64.1",
+    "education": "6.4"
+  },
+  "Italy": {
+    "square": "301340",
+    "count": "59500000",
+    "life": "83.3",
+    "education": "8.2"
+  },
+  "Kenya": {
+    "square": "580367",
+    "count": "55300000",
+    "life": "66.7",
+    "education": "5.9"
+  },
+  "Myanmar": {
+    "square": "676578",
+    "count": "54100000",
+    "life": "66.8",
+    "education": "5.3"
+  },
+  "Colombia": {
+    "square": "1141748",
+    "count": "52300000",
+    "life": "77.0",
+    "education": "7.2"
+  },
+  "South Korea": {
+    "square": "100000",
+    "count": "51700000",
+    "life": "83.2",
+    "education": "8.5"
+  },
+  "Sudan": {
+    "square": "1861484",
+    "count": "50000000",
+    "life": "64.3",
+    "education": "4.6"
+  },
+  "Uganda": {
+    "square": "241038",
+    "count": "48700000",
+    "life": "63.5",
+    "education": "4.9"
+  },
+  "Spain": {
+    "square": "505990",
+    "count": "47900000",
+    "life": "83.1",
+    "education": "8.1"
+  },
+  "Algeria": {
+    "square": "2381741",
+    "count": "46200000",
+    "life": "76.1",
+    "education": "6.7"
+  },
+  "Argentina": {
+    "square": "2780400",
+    "count": "45500000",
+    "life": "76.0",
+    "education": "6.7"
+  },
+  "Iraq": {
+    "square": "438317",
+    "count": "45100000",
+    "life": "70.7",
+    "education": "5.7"
+  },
+  "Afghanistan": {
+    "square": "652230",
+    "count": "41500000",
+    "life": "64.0",
+    "education": "3.0"
+  },
+  "Yemen": {
+    "square": "527968",
+    "count": "39400000",
+    "life": "66.8",
+    "education": "3.8"
+  },
+  "Canada": {
+    "square": "9984670",
+    "count": "39300000",
+    "life": "82.0",
+    "education": "8.5"
+  },
+  "Poland": {
+    "square": "312679",
+    "count": "38800000",
+    "life": "78.0",
+    "education": "8.1"
+  },
+  "Ukraine": {
+    "square": "603500",
+    "count": "37700000",
+    "life": "72.1",
+    "education": "6.8"
+  },
+  "Morocco": {
+    "square": "446550",
+    "count": "37700000",
+    "life": "76.3",
+    "education": "5.4"
+  },
+  "Angola": {
+    "square": "1246700",
+    "count": "36700000",
+    "life": "60.5",
+    "education": "4.6"
+  },
+  "Uzbekistan": {
+    "square": "447400",
+    "count": "35700000",
+    "life": "73.0",
+    "education": "6.3"
+  },
+  "Malaysia": {
+    "square": "329847",
+    "count": "35100000",
+    "life": "76.2",
+    "education": "6.8"
+  },
+  "Peru": {
+    "square": "1285216",
+    "count": "33800000",
+    "life": "76.8",
+    "education": "6.4"
+  },
+  "Ghana": {
+    "square": "238533",
+    "count": "33800000",
+    "life": "61.5",
+    "education": "4.5"
+  },
+  "Mozambique": {
+    "square": "801590",
+    "count": "33600000",
+    "life": "60.5",
+    "education": "4.9"
+  },
+  "Saudi Arabia": {
+    "square": "2149690",
+    "count": "33300000",
+    "life": "75.6",
+    "education": "6.8"
+  },
+  "Madagascar": {
+    "square": "587041",
+    "count": "31200000",
+    "life": "67.5",
+    "education": "4.8"
+  },
+  "Ivory Coast": {
+    "square": "322463",
+    "count": "31200000",
+    "life": "60.1",
+    "education": "4.9"
+  },
+  "Nepal": {
+    "square": "147516",
+    "count": "29700000",
+    "life": "71.9",
+    "education": "4.6"
+  },
+  "Cameroon": {
+    "square": "475442",
+    "count": "28400000",
+    "life": "58.3",
+    "education": "5.5"
+  },
+  "Venezuela": {
+    "square": "916445",
+    "count": "28300000",
+    "life": "72.7",
+    "education": "5.9"
+  },
+  "Australia": {
+    "square": "7692024",
+    "count": "26500000",
+    "life": "83.4",
+    "education": "8.5"
+  },
+  "North Korea": {
+    "square": "120540",
+    "count": "26400000",
+    "life": "72.2",
+    "education": "5.2"
+  },
+  "Niger": {
+    "square": "1267000",
+    "count": "26200000",
+    "life": "62.2",
+    "education": "4.2"
+  },
+  "Mali": {
+    "square": "1240192",
+    "count": "23800000",
+    "life": "59.4",
+    "education": "4.0"
+  },
+  "Syria": {
+    "square": "185180",
+    "count": "23600000",
+    "life": "72.0",
+    "education": "4.5"
+  },
+  "Taiwan": {
+    "square": "36396",
+    "count": "23300000",
+    "life": "80.9",
+    "education": "8.5"
+  },
+  "Burkina Faso": {
+    "square": "273600",
+    "count": "23000000",
+    "life": "60.2",
+    "education": "4.4"
+  },
+  "Sri Lanka": {
+    "square": "65610",
+    "count": "23000000",
+    "life": "76.5",
+    "education": "5.9"
+  },
+  "Malawi": {
+    "square": "118484",
+    "count": "21100000",
+    "life": "61.8",
+    "education": "4.0"
+  },
+  "Zambia": {
+    "square": "752612",
+    "count": "20700000",
+    "life": "59.1",
+    "education": "5.2"
+  },
+  "Kazakhstan": {
+    "square": "2724900",
+    "count": "20300000",
+    "life": "73.3",
+    "education": "7.0"
+  },
+  "Chile": {
+    "square": "756102",
+    "count": "19700000",
+    "life": "82.1",
+    "education": "7.9"
+  },
+  "Chad": {
+    "square": "1284000",
+    "count": "19300000",
+    "life": "53.2",
+    "education": "4.5"
+  },
+  "Romania": {
+    "square": "238397",
+    "count": "19100000",
+    "life": "76.2",
+    "education": "6.5"
+  },
+  "Somalia": {
+    "square": "637657",
+    "count": "18400000",
+    "life": "56.4",
+    "education": "2.8"
+  },
+  "Guatemala": {
+    "square": "108889",
+    "count": "18100000",
+    "life": "75.5",
+    "education": "5.3"
+  },
+  "Netherlands": {
+    "square": "41543",
+    "count": "18100000",
+    "life": "82.2",
+    "education": "8.3"
+  },
+  "Senegal": {
+    "square": "196722",
+    "count": "18100000",
+    "life": "66.2",
+    "education": "5.5"
+  },
+  "Ecuador": {
+    "square": "283561",
+    "count": "18000000",
+    "life": "76.8",
+    "education": "6.6"
+  },
+  "Cambodia": {
+    "square": "181035",
+    "count": "17400000",
+    "life": "69.5",
+    "education": "5.2"
+  },
+  "Zimbabwe": {
+    "square": "390757",
+    "count": "16300000",
+    "life": "61.1",
+    "education": "4.5"
+  },
+  "Guinea": {
+    "square": "245857",
+    "count": "14400000",
+    "life": "61.1",
+    "education": "4.4"
+  },
+  "Benin": {
+    "square": "114763",
+    "count": "14100000",
+    "life": "60.0",
+    "education": "4.6"
+  },
+  "Rwanda": {
+    "square": "26338",
+    "count": "14000000",
+    "life": "69.8",
+    "education": "5.5"
+  },
+  "Burundi": {
+    "square": "27834",
+    "count": "13700000",
+    "life": "61.3",
+    "education": "4.2"
+  },
+  "Bolivia": {
+    "square": "1098581",
+    "count": "12200000",
+    "life": "71.1",
+    "education": "5.7"
+  },
+  "Tunisia": {
+    "square": "163610",
+    "count": "12200000",
+    "life": "76.5",
+    "education": "6.5"
+  },
+  "Belgium": {
+    "square": "30528",
+    "count": "11700000",
+    "life": "82.5",
+    "education": "8.0"
+  },
+  "Haiti": {
+    "square": "27750",
+    "count": "11600000",
+    "life": "63.4",
+    "education": "3.8"
+  },
+  "South Sudan": {
+    "square": "619745",
+    "count": "11500000",
+    "life": "57.2",
+    "education": "4.2"
+  },
+  "Jordan": {
+    "square": "89275",
+    "count": "11400000",
+    "life": "75.3",
+    "education": "5.2"
+  },
+  "Dominican Republic": {
+    "square": "48671",
+    "count": "11300000",
+    "life": "74.0",
+    "education": "5.8"
+  },
+  "Cuba": {
+    "square": "109884",
+    "count": "11000000",
+    "life": "78.4",
+    "education": "8.0"
+  },
+  "Czech Republic": {
+    "square": "78866",
+    "count": "10800000",
+    "life": "79.5",
+    "education": "8.2"
+  },
+  "Honduras": {
+    "square": "112492",
+    "count": "10600000",
+    "life": "74.5",
+    "education": "5.0"
+  },
+  "UAE": {
+    "square": "83600",
+    "count": "10600000",
+    "life": "78.2",
+    "education": "7.9"
+  },
+  "Sweden": {
+    "square": "450295",
+    "count": "10600000",
+    "life": "82.6",
+    "education": "8.1"
+  },
+  "Portugal": {
+    "square": "92212",
+    "count": "10400000",
+    "life": "81.6",
+    "education": "7.9"
+  },
+  "Tajikistan": {
+    "square": "143100",
+    "count": "10400000",
+    "life": "71.0",
+    "education": "4.7"
+  },
+  "Papua New Guinea": {
+    "square": "462840",
+    "count": "10400000",
+    "life": "64.0",
+    "education": "4.5"
+  },
+  "Azerbaijan": {
+    "square": "86600",
+    "count": "10300000",
+    "life": "73.0",
+    "education": "5.7"
+  },
+  "Greece": {
+    "square": "131957",
+    "count": "10200000",
+    "life": "82.6",
+    "education": "8.0"
+  },
+  "Hungary": {
+    "square": "93030",
+    "count": "9700000",
+    "life": "76.9",
+    "education": "7.2"
+  },
+  "Togo": {
+    "square": "56785",
+    "count": "9300000",
+    "life": "60.5",
+    "education": "4.3"
+  },
+  "Israel": {
+    "square": "20770",
+    "count": "9300000",
+    "life": "83.6",
+    "education": "8.1"
+  },
+  "Austria": {
+    "square": "83879",
+    "count": "9100000",
+    "life": "81.7",
+    "education": "7.9"
+  },
+  "Belarus": {
+    "square": "207600",
+    "count": "9100000",
+    "life": "75.3",
+    "education": "6.8"
+  },
+  "Switzerland": {
+    "square": "41285",
+    "count": "8900000",
+    "life": "83.3",
+    "education": "8.5"
+  },
+  "Sierra Leone": {
+    "square": "71740",
+    "count": "8500000",
+    "life": "54.0",
+    "education": "4.0"
+  },
+  "Laos": {
+    "square": "236800",
+    "count": "7700000",
+    "life": "67.1",
+    "education": "4.0"
+  },
+  "Hong Kong": {
+    "square": "1104",
+    "count": "7400000",
+    "life": "84.3",
+    "education": "8.1"
+  },
+  "Turkmenistan": {
+    "square": "488100",
+    "count": "7400000",
+    "life": "73.6",
+    "education": "5.8"
+  },
+  "Libya": {
+    "square": "1759540",
+    "count": "7300000",
+    "life": "77.6",
+    "education": "6.4"
+  },
+  "Kyrgyzstan": {
+    "square": "199951",
+    "count": "7100000",
+    "life": "71.0",
+    "education": "4.8"
+  },
+  "Paraguay": {
+    "square": "406752",
+    "count": "6800000",
+    "life": "76.8",
+    "education": "6.1"
+  },
+  "Nicaragua": {
+    "square": "130365",
+    "count": "6800000",
+    "life": "75.9",
+    "education": "5.0"
+  },
+  "Bulgaria": {
+    "square": "110879",
+    "count": "6800000",
+    "life": "75.6",
+    "education": "7.1"
+  },
+  "Serbia": {
+    "square": "77474",
+    "count": "6800000",
+    "life": "75.5",
+    "education": "6.8"
+  },
+  "El Salvador": {
+    "square": "21041",
+    "count": "6300000",
+    "life": "74.9",
+    "education": "4.8"
+  },
+  "Denmark": {
+    "square": "43094",
+    "count": "5900000",
+    "life": "81.5",
+    "education": "8.4"
+  },
+  "Singapore": {
+    "square": "7286",
+    "count": "5800000",
+    "life": "84.7",
+    "education": "8.0"
+  },
+  "Lebanon": {
+    "square": "10400",
+    "count": "5800000",
+    "life": "77.9",
+    "education": "6.9"
+  },
+  "Finland": {
+    "square": "338424",
+    "count": "5600000",
+    "life": "81.9",
+    "education": "8.6"
+  },
+  "Norway": {
+    "square": "323802",
+    "count": "5500000",
+    "life": "82.7",
+    "education": "8.9"
+  },
+  "Slovakia": {
+    "square": "49035",
+    "count": "5500000",
+    "life": "76.8",
+    "education": "6.5"
+  },
+  "Liberia": {
+    "square": "111369",
+    "count": "5500000",
+    "life": "64.2",
+    "education": "4.7"
+  },
+  "Palestinian Territories": {
+    "square": "6079",
+    "count": "5400000",
+    "life": "74.0",
+    "education": "5.5"
+  },
+  "Ireland": {
+    "square": "70273",
+    "count": "5200000",
+    "life": "82.1",
+    "education": "8.0"
+  },
+  "New Zealand": {
+    "square": "268021",
+    "count": "5200000",
+    "life": "82.5",
+    "education": "8.2"
+  },
+  "Central African Republic": {
+    "square": "622984",
+    "count": "5200000",
+    "life": "53.1",
+    "education": "3.8"
+  },
+  "Costa Rica": {
+    "square": "51100",
+    "count": "5100000",
+    "life": "80.1",
+    "education": "6.6"
+  },
+  "Oman": {
+    "square": "309500",
+    "count": "5000000",
+    "life": "79.4",
+    "education": "6.8"
+  },
+  "Mauritania": {
+    "square": "1030700",
+    "count": "5000000",
+    "life": "60.3",
+    "education": "4.5"
+  },
+  "Kuwait": {
+    "square": "17818",
+    "count": "4800000",
+    "life": "78.0",
+    "education": "6.9"
+  },
+  "Panama": {
+    "square": "75417",
+    "count": "4500000",
+    "life": "77.1",
+    "education": "5.6"
+  },
+  "Croatia": {
+    "square": "56594",
+    "count": "3900000",
+    "life": "79.3",
+    "education": "7.7"
+  },
+  "Georgia": {
+    "square": "69700",
+    "count": "3800000",
+    "life": "78.0",
+    "education": "6.9"
+  }
+}
