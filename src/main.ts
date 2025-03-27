@@ -2,7 +2,9 @@ import fs from 'fs';
 import { DataPoint } from "./selfStudy";
 import { SelfStudy } from "./selfStudy";
 import { SelfOrganization } from "./selfOrganization";
-import { features } from "process";
+
+// Показать нормированные входные данные
+let showNormInputData: boolean = true;
 
 async function readJsonFile(filePath: string): Promise<any> {
   try {
@@ -53,17 +55,20 @@ async function processData(): Promise<boolean> {
   }
 
   console.log("Набор данных обработан");
+  if(showNormInputData) {
+    console.log(dataPoints);
+  }
   return true;
 }
 
 // Пример1 с самообучающейся сетью Кохонера
-async function Example1(countOfNeurons:number) {
+async function Example1(countOfNeurons:number, inputIndexToTrain:number[]) {
   // Размер входного вектора
-  const inputDimension = 2;
+  const inputDimension = inputIndexToTrain.length;
   // Скорость обучения
-  const learningRate = 0.4;
+  const learningRate = 0.01;
   // Количество эпох
-  let epochs: number = 3000;
+  let epochs: number = 130;
   // Минимальный порог, после которого прекращается обучение
   let delta: number = 0.1;
 
@@ -71,9 +76,12 @@ async function Example1(countOfNeurons:number) {
 
   const dataPointsForSS: Array<DataPoint> = dataPoints.map(
     (data: DataPoint) => {
+      const features: number[] = inputIndexToTrain.map((index: number) => {
+        return data.features[index];
+      }) 
       const newData: DataPoint = {
         label: data.label,
-        features: [data.features[0], data.features[1]]
+        features
       };
       return newData;
     }
@@ -98,7 +106,7 @@ async function Example1(countOfNeurons:number) {
   }
 }
 // Пример2
-async function Example2(radius:number) {
+async function Example2(radius:number,inputIndexToTrain:number[] ) {
   // Размер входного вектора
   const inputDimension = 2;
   // Количество эпох
@@ -112,9 +120,12 @@ async function Example2(radius:number) {
 
   const dataPointsForSO: Array<DataPoint> = dataPoints.map(
     (data: DataPoint) => {
+      const features: number[] = inputIndexToTrain.map((index: number) => {
+        return data.features[index];
+      }) 
       const newData: DataPoint = {
         label: data.label,
-        features: [data.features[2], data.features[3]]
+        features
       };
       return newData;
     }
@@ -152,14 +163,14 @@ async function main() {
 
   if (args.includes("--example1")) {
     const example1Index = args.indexOf('--example1');
-    const clusterCount:number = parseInt(args[example1Index + 1]) || 11; // По умолчанию 11 кластеров
-    await Example1(clusterCount);
+    const clusterCount: number = parseInt(args[example1Index + 1]) || 11; // По умолчанию 11 кластеров
+    await Example1(clusterCount, [0,1,2,3]);
   }
 
   if (args.includes("--example2")) {
     const example2Index = args.indexOf('--example2');
-    const radius:number = parseInt(args[example2Index + 1]) || 0.019; // По умолчанию радиус 
-    await Example2(radius);
+    const radius: number = parseInt(args[example2Index + 1]) || 0.019; // По умолчанию радиус 
+    await Example2(radius, [1,2,3]);
   }
 }
 
